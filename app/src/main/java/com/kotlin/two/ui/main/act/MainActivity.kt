@@ -23,7 +23,7 @@ class MainActivity :  BaseActivity <MainView,MainPersenter>(),MainView {
 
     override fun initData() {
     }
-
+//11
     override fun <T> setData(data: T) {
         Log.e("tset","=========>$data")
     }
